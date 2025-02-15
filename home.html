@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="صفحه فلسطينيه لتعليم و العمل في مجال البرمجه على يد شاب فلسطينين "
+    />
+    <title>CDI academy soon</title>
+    <!--
+        
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+           (fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!--fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!---->
+    <link rel="stylesheet" href="asset/bootstrap 5/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="icon" href="img/logo1.png" />
+  </head>
+  <body>
+    <!-- class="text-center" هاي الخاصيه بتخلي كل العناصر في الوسط طبعا بأستخدام بوتستراب -->
+    <header class="text-center">
+      <!--مش رح تبين الخلفيه غير لما تحط المحتوى اذا بتحط محتوى بتبين تدريجي -->
+      <div class="brand">
+        <div class="logo">
+          <img src="img/logo1.png" alt="logo" />
+        </div>
+        <div class="slogo">
+          <img src="img/logo2.png" alt="slogo" />
+        </div>
+      </div>
+      <div class="heading-page">
+        <h1 class="text-white">انتظروا انطلاق الموقع قريبا</h1>
+        <p class="text-white">
+          شركه فلسطينيه ناشئه في مجال البرمجه على يد طلاب جامعيين
+        </p>
+      </div>
+      <div class="count-down">
+        <div class="counter">
+          <span class="count-amount" id="month"></span>
+          <span class="count-period">اشهر</span>
+        </div>
+
+        <div class="counter">
+          <span class="count-amount" id="days"></span>
+          <span class="count-period">ايام</span>
+        </div>
+
+        <div class="counter">
+          <span class="count-amount" id="hours"></span>
+          <span class="count-period">ساعات </span>
+        </div>
+
+        <div class="counter">
+          <span class="count-amount" id="minutes"></span>
+          <span class="count-period">دقائق </span>
+        </div>
+
+        <div class="counter">
+          <span class="count-amount" id="seconds"></span>
+          <span class="count-period">ثواني </span>
+        </div>
+      </div>
+      <div class="send-notification">
+        <form action="" class="needs-validation" novalidate>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="البريد الالكتروني "
+              required
+            />
+            <button type="submit" class="btn">
+              <img src="img/send1.png" class="" alt="" />
+            </button>
+            <div class="invalid-feedback">
+              عذرا يرجا ادخال البريد الالكتروني
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="features">
+        <div class="container">
+          <h2>مميزات اللعبة</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <!--2-->
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/prush.png" alt="prush" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>تصميم انيق</h4>
+                  <p>
+                    هو ببساطه نص شكلي (بمعنى ان الغاية هي الشكل وليس المحتوى)
+                    وتستخدم في صناعه المطابع
+                  </p>
+                </div>
+              </div>
+              <!--2-->
+              <!--4-->
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/photo.png" alt="prush" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>يوجد صور لتوضيح تفاصيل اللعبه</h4>
+                  <p>
+                    هو ببساطه نص شكلي (بمعنى ان الغاية هي الشكل وليس المحتوى)
+                    وتستخدم في صناعه المطابع
+                  </p>
+                </div>
+              </div>
+              <!--4-->
+              <!--6-->
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/mail.png" alt="prush" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>يمكنك ارسال هديا لأصدقائك عبر اللعبة</h4>
+                  <p>
+                    هو ببساطه نص شكلي (بمعنى ان الغاية هي الشكل وليس المحتوى)
+                    وتستخدم في صناعه المطابع
+                  </p>
+                </div>
+              </div>
+              <!--6-->
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="col-md-6">
+              <!--1-->
+              <div class="d-flex">
+                <div class="flex-grow-1 ms-3">
+                  <h4>اللعبه متوفرة بوضع الشاشة الممتلئ</h4>
+                  <p>
+                    هو ببساطه نص شكلي (بمعنى ان الغاية هي الشكل وليس المحتوى)
+                    وتستخدم في صناعه المطابع
+                  </p>
+                </div>
+                <div class="flex-shrink-0">
+                  <img src="img/phone.png" alt="prush" />
+                </div>
+              </div>
+              <!--1-->
+              <!--3-->
+              <div class="d-flex">
+                <div class="flex-grow-1 ms-3">
+                  <h4>يمكنك مشاركه اللعبه كمجموعة</h4>
+                  <p>
+                    هو ببساطه نص شكلي (بمعنى ان الغاية هي الشكل وليس المحتوى)
+                    وتستخدم في صناعه المطابع
+                  </p>
+                </div>
+                <div class="flex-shrink-0">
+                  <img src="img/fork.png" alt="prush" />
+                </div>
+              </div>
+              <!--3-->
+              <!--5-->
+              <div class="d-flex">
+                <div class="flex-grow-1 ms-3">
+                  <h4>اضافه اصدقاء جدد لاستخدام اللعبه</h4>
+                  <p>
+                    هو ببساطه نص شكلي (بمعنى ان الغاية هي الشكل وليس المحتوى)
+                    وتستخدم في صناعه المطابع
+                  </p>
+                </div>
+                <div class="flex-shrink-0">
+                  <img src="img/person-plus.png" alt="prush" />
+                </div>
+              </div>
+              <!--5-->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-notification">
+        <h3>قم بأضافة بريدك الالكتروني ليصلك اشعار على الفور</h3>
+        <form action="" class="needs-validation" novalidate>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="البريد الالكتروني "
+              required
+            />
+            <button type="submit" class="btn" id="btn2 ">
+              <img src="img/send2.png" class="btn2" alt="" />
+            </button>
+            <div class="invalid-feedback">
+              عذرا يرجا ادخال البريد الالكتروني
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="social-media">
+        <h3>تابعنا على مواقع التواصل الاجتماعي</h3>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </li>
+        </ul>
+        <hr />
+        <div class="colling-me">
+          <a href="mailto:nageammar628@gmail.com" class="email"
+            ><span><i class="fa-solid fa-envelope"></i></span>
+            nageammar628@gmail.com
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="asset/bootstrap 5/js/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
