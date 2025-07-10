@@ -138,6 +138,10 @@ footer .input-group input {
   background-color: #393939e0 !important;
 }
 /**/
+footer .social-media {
+  background-color: rgb(255, 206, 0, 0.7);
+  padding: 50px 0;
+}
 footer .social-media h3 {
   text-align: center;
   margin-bottom: 50px;
@@ -166,10 +170,10 @@ footer .social-media .list-inline a:hover {
 .social-media .email {
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 }
 .social-media .email i {
-  color: #ffce00;
+  color: #000000;
 }
 .colling-me {
   font-size: 20px;
